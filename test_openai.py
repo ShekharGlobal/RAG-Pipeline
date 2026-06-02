@@ -11,3 +11,5 @@ response = ollama.chat(
 )
 
 print(response["message"]["content"])
+
+#PDF → Chunking → Embeddings → ChromaDB → Retriever → Llama3 → Answer
