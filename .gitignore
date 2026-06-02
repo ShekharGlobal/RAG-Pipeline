@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# ChromaDB Vector Store
+vector_db/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# HuggingFace Cache
+.cache/
+
+# Ollama Temporary Files
+ollama.log
+
+# Build
+dist/
+build/
+*.egg-info/
